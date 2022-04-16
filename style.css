@@ -1,0 +1,41 @@
+body{
+    background-color: skyblue;
+}
+.container{
+    font-family: sans-serif;
+    border: 1px solid orange;
+    background-color: orange;
+    text-align: center;
+    margin-top:0%;
+}
+.thumbnail1{
+    margin-left:0%;
+    margin-top:0%;
+}
+.thumbnail2{
+    margin-left:49.72%;
+    margin-top:-26.5%;
+}
+.thumbnail3{
+    margin-left:-0.1%;
+    margin-top:-0.8%;
+}
+.thumbnail4{
+    margin-left:25.5%;
+    margin-top:-31.82%;
+}
+.thumbnail5{
+    margin-left:50.93%;
+    margin-top:-31.82%;
+}
+.thumbnail6{
+    margin-left:75.52%;
+    margin-top:-31.82%;
+}
+@media(max-width:400px){
+    .container{
+        display:flex;
+        background-color: orange;
+        flex-direction:column;
+    }
+}
